@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
+import { AiFillThunderbolt } from 'react-icons/ai'
 
 const About = () => {
   return (
@@ -20,6 +21,45 @@ const About = () => {
                 <p>
                 I am excited to bring my expertise in web development to the digital world, and I am eager to embark on new projects and challenges. Lets work together to create innovative and user-friendly web solutions that leave a lasting impression.
                 </p>
+                <p>Here are the technologies I have been working with recently:</p>
+                <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        JavaScript (ES6+)
+                    </li>
+                    
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        React Redux
+                    </li>
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        Ruby
+                    </li>
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        Ruby on Rails
+                    </li>
+                                        
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        SQL
+                    </li>
+
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        Next.js
+                    </li>
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        TypeScript
+                    </li>
+                    <li className='flex items-center gap-2'>
+                        <span className='text-textGreen'><AiFillThunderbolt/></span>
+                        Tailwind
+                    </li>
+
+                </ul>
             </div>
             <div></div>
         </div>
