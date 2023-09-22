@@ -11,7 +11,7 @@ module.exports = {
         container: '1440px',
         contentContainer: '1140px',
         containerSmall: '1024px',
-        containerXs: '768px',
+        containerxs: '768px',
       },
       screens:{
         xs:'320px',
@@ -39,5 +39,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
 }

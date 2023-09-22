@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
-import React from 'react'
-import { logo } from '../public/assets/images'
+import logoImage from '../public/logoImage.png'
 
 import { motion } from 'framer-motion'
 
@@ -13,7 +13,8 @@ const Navbar = () => {
         animate={{opacity: 1}}
         transition={{duration: 0.5}}
         >
-          {/* <img src={logo} alt="logo" /> */}
+          <img src={logoImage.src} alt="logo" 
+          className='w-20 h-auto'/>
         </motion.div>
         <div className='hidden mdl:inline-flex items-center gap-7'>
           <ul className='flex text-[14px] gap-7'>
@@ -26,40 +27,40 @@ const Navbar = () => {
             transition={{duration: 0.2}}
             >Home</motion.li>
             </Link>
-            <Link href='#home' className='flex items-center gap-1 font-medium text-textDrak
+            <Link href='#about' className='flex items-center gap-1 font-medium text-textDrak
             hover:text-textGreen cursor-pointer duration-300 nav-link'>
             <motion.li
             initial={{ y:-10 , opacity: 0}}
             animate={{ y:0 , opacity: 1}}
             transition={{duration: 0.2}}>
-            <span className='text-textGreen'>01.</span>About
+            About
             </motion.li>
             </Link>
-            <Link href='#home' className='flex items-center gap-1 font-medium text-textDrak
+            <Link href='#experience' className='flex items-center gap-1 font-medium text-textDrak
             hover:text-textGreen cursor-pointer duration-300 nav-link'>
             <motion.li
             initial={{ y:-10 , opacity: 0}}
             animate={{ y:0 , opacity: 1}}
             transition={{duration: 0.2}}>
-            <span className='text-textGreen'>02.</span>Experience
+            Experience
             </motion.li>
             </Link>
-            <Link href='#home' className='flex items-center gap-1 font-medium text-textDrak
+            <Link href='#project' className='flex items-center gap-1 font-medium text-textDrak
             hover:text-textGreen cursor-pointer duration-300 nav-link'>
             <motion.li
             initial={{ y:-10 , opacity: 0}}
             animate={{ y:0 , opacity: 1}}
             transition={{duration: 0.2}}>
-            <span className='text-textGreen'>03.</span>Projects
+            Projects
             </motion.li>
             </Link>
-            <Link href='#home' className='flex items-center gap-1 font-medium text-textDrak
+            <Link href='#contact' className='flex items-center gap-1 font-medium text-textDrak
             hover:text-textGreen cursor-pointer duration-300 nav-link'>
             <motion.li
             initial={{ y:-10 , opacity: 0}}
             animate={{ y:0 , opacity: 1}}
             transition={{duration: 0.2}}>
-            <span className='text-textGreen'>04.</span>Contact
+            Contact
             </motion.li>
             </Link>
           </ul>
