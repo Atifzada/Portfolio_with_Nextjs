@@ -5,8 +5,8 @@ import Microverse from './works/Microverse';
 import BajCo from './works/BajCo';
 
 const Experience = () => {
-    const [workMustfintect , setWorkMustfintect]=useState(true);
-    const [workMicroverse,setWorkMicroverse]=useState(false);
+    const [workMustfintect , setWorkMustfintect]=useState(false);
+    const [workMicroverse,setWorkMicroverse]=useState(true);
     const [workBajco,setWorkBajco]=useState(false);
 
     const handleMustfintect = () => {
