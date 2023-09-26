@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -45,7 +44,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Mobile first portfolio websit using Figma design ]**
-- **[Work section added]**
+- **[Experience added]**
+- **[Recent Project added]**
+- **[Contact Info added]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,7 +91,7 @@ To run tests, run the following command: Not Applicable
 
 website is deployed using Github page:
 here is the link
-https://tangerine-dragon-da0e56.netlify.app/
+https://atifzadaportfolio.netlify.app/
 
 ### Link to Issues
 Below is the link to the issues
