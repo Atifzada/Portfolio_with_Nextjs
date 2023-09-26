@@ -1,38 +1,153 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+# 📗 Table of Contents
 
-First, run the development server:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 📖 [Portfolio -Project] <a name="about-project"></a>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**[Portfolio-Project]**Explore my personal portfolio website showcasing my skills, projects, and experiences. Built with HTML, Tailwind CSS, React.js Next.js and for a responsive and interactive design
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🛠 Built With <a name="built-with"></a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Tech Stack <a name="tech-stack"></a>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>Tailwind CSS</li>
+    <li>React</li>
+    <li>Next.js</li>
+  </ul>
+</details>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Key Features <a name="key-features"></a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **[Mobile first portfolio websit using Figma design ]**
+- **[Work section added]**
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+
+### Prerequisites
+
+In order to run this project you need:
+you have to have Code editor and Github account to have the source code
+
+### Setup
+
+Clone this repository to your desired folder:
+git clone https://github.com/Atifzada/Portfolio-Project
+
+### Install
+
+Install this project:
+
+
+### Usage
+
+To run the project, execute the following command:
+
+Once you clone the project then select live server you will see portfolio website displayed on the browser
+
+### Run tests
+
+To run tests, run the following command: Not Applicable
+
+
+### Deployment
+
+website is deployed using Github page:
+here is the link
+https://tangerine-dragon-da0e56.netlify.app/
+
+### Link to Issues
+Below is the link to the issues
+https://github.com/Atifzada/Portfolio_with_Nextjs/issues
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+- GitHub: [@atifzada](https://github.com/Atifzada)
+- Twitter: [@atifzada](https://twitter.com/atifzada04)
+- LinkedIn: [@atifzada](https://www.linkedin.com/in/atif-zada-585693180/)
+
+## 👥 Authors <a name="authors"></a>
+- GitHub: [@githubhandle](https://github.com/AbednegoKibitok)
+- Twitter: [@twitterhandle](https://twitter.com/abedysongol)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abednego-kibitok-58717517a/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [Modern-Styling] **[Add contact form and gallary section.]**
+- [Modern-Styling] **[Add form validation.]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+## 🤝 Contributors:
+@touredri
+@Otega
+@Yusuf
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project then please give it a star and share with the person who is in need of this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for providing me this awesome learning opportunity.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+
