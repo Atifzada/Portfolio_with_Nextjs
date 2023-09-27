@@ -74,7 +74,7 @@ const Contact = () => {
           type='submit'
           className='w-40 h-14 border border-textGreen font-titleFont text-sm text-textGreen tracking-wide rounded-md hover:bg-hoverColor duration-300'
         >
-          Say Hello
+          Submit
         </button>
       </form>
     </section>
