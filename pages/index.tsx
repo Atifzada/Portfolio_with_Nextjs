@@ -34,9 +34,8 @@ export default function Home() {
     <div className="h-[88vh] w-full mx-auto p-4">
       <Banner/>
       <About/>
-      <Experience/>
       <Projects/>
-      {/* Archives */}
+      <Experience/>
       <Contact/>
       <Footer/>
     </div>

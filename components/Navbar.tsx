@@ -69,20 +69,6 @@ const Navbar = () => {
               </motion.li>
             </Link>
             <Link
-              href="#experience"
-              onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textDrak
-            hover:text-textGreen cursor-pointer duration-300 nav-link"
-            >
-              <motion.li
-                initial={{ y: -10, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.2 }}
-              >
-                Experience
-              </motion.li>
-            </Link>
-            <Link
               href="#project"
               onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDrak
@@ -94,6 +80,20 @@ const Navbar = () => {
                 transition={{ duration: 0.2 }}
               >
                 Projects
+              </motion.li>
+            </Link>
+            <Link
+              href="#experience"
+              onClick={handleScroll}
+              className="flex items-center gap-1 font-medium text-textDrak
+            hover:text-textGreen cursor-pointer duration-300 nav-link"
+            >
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2 }}
+              >
+                Experience
               </motion.li>
             </Link>
             <Link
