@@ -22,7 +22,7 @@ const Contact = () => {
         action='mailto:atifkhatak242@gmail.com'
         method='post'
         encType='text/plain'
-        className='mt-6 w-[50%] '
+        className="mt-6 w-1/2 sm:w-[70%] lg:w-1/2"
       >
         <div className='mb-4'>
           <label
