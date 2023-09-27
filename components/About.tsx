@@ -23,7 +23,9 @@ const About = () => {
                 <p>
                 I am excited to bring my expertise in web development to the digital world, and I am eager to embark on new projects and challenges. Lets work together to create innovative and user-friendly web solutions that leave a lasting impression.
                 </p>
-                <p>Here are the technologies I have been working with recently:</p>
+                <div className='py-10'>
+                <SectionTitle title="Skills"/>
+                <p className='pt-10'>Here are the technologies I have been working with recently:</p>
                 <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
                     <li className='flex items-center gap-2'>
                         <span className='text-textGreen'><AiFillThunderbolt/></span>
@@ -62,6 +64,7 @@ const About = () => {
                     </li>
 
                 </ul>
+                </div>
             </div>
             <div className='w-full lgl:w-1/3 h-80 relative group ml-6'>
                 <div className='absolute w-full h-80 -left-6 -top-6 rounded-lg'>
