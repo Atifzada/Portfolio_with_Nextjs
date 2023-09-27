@@ -96,7 +96,7 @@ const Projects = () => {
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-40'>
             <div className='flex flex-col items-center xl:flex-row gap-6'>
               <a className='w-2/3 xl:1/2 h-auto relative gap'
-              href="land-rover-e.netlify.app" target='_blank'>
+              href="https://land-rover-e.netlify.app/" target='_blank'>
               <div>
                 <img src={landrover.src} alt="landrover" className='w-full h-full object-contain'/>
                 </div>
@@ -117,7 +117,7 @@ const Projects = () => {
                 <li>Render Deployment</li>
               </ul>
               <div className='flex items-center justify-center gap-5'>
-              <a href="land-rover-e.netlify.app" target='_blank'>
+              <a href="https://land-rover-e.netlify.app/" target='_blank'>
             {" "}
         <button className='w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm
         text-textGreen tracking-wide rounded-md hover:bg-hoverColor duration-300'>
