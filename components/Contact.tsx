@@ -21,7 +21,7 @@ const Contact = () => {
       <form
         action='mailto:atifkhatak242@gmail.com'
         method='post'
-        enctype='text/plain'
+        encType='text/plain'
         className='mt-6 w-[50%] '
       >
         <div className='mb-4'>
@@ -64,7 +64,7 @@ const Contact = () => {
           <textarea
             id='message'
             name='message'
-            rows='4'
+            // rows='4'
             className='w-full px-4 py-2 border border-textGreen rounded-md focus:outline-none focus:border-hoverColor'
             placeholder='Write your message'
             required
